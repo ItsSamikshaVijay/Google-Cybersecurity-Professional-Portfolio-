@@ -1,96 +1,129 @@
 
-# Cybersecurity Reports – README
+# Cybersecurity Projects – README
 
 ## Overview
 
-This repository contains five security-related reports covering different aspects of cybersecurity practices, incidents, and assessments. These documents detail vulnerabilities, risk assessments, incident responses, and security news analyses, along with recommended solutions and mitigation strategies.
+This repository contains five of my cybersecurity projects, each demonstrating practical skills in penetration testing, vulnerability assessment, risk analysis, and incident response. These projects are based on real-world scenarios, applying industry frameworks and security best practices to assess, mitigate, and respond to threats.
 
 ---
 
-## **1. Penetration Testing Mini-Report**
+## **1. Penetration Testing – Vsftpd v2.3.4 Backdoor**
 
-**Summary:**
-This report focuses on a penetration test targeting **Vsftpd v2.3.4** on a Metasploitable 2 environment using Kali Linux. The identified vulnerability is a **backdoor** within this version of Vsftpd, allowing an attacker to gain a root shell by logging in with a specially crafted username.
-**Key Points:**
+**Objective:**
+Conducted a penetration test on a Metasploitable 2 environment to identify and exploit vulnerabilities using Kali Linux.
 
-* **Vulnerability:** Built-in backdoor allowing remote shell access.
-* **Impact:** Potential for data theft, defacement, server hijacking, DDoS launching, and persistent malware.
-* **Mitigation:** Use firewalls, antivirus with RAT/Trojan detection, and network monitoring tools.
-* **Conclusion:** Organizations should regularly reassess risks and close such critical vulnerabilities immediately.
+**What I Did:**
 
----
+* Discovered an open FTP port running **Vsftpd v2.3.4**, known for a backdoor vulnerability.
+* Simulated an attack to demonstrate remote shell access and potential impact.
+* Documented the risks, including data theft, server hijacking, and malware persistence.
 
-## **2. Security Risk Assessment Report**
+**Skills Demonstrated:**
 
-**Summary:**
-A security assessment for a social media company after a **major data breach** revealed four major vulnerabilities: password sharing, default admin credentials, lack of firewall traffic filtering, and absence of MFA.
-**Key Points:**
+* Vulnerability research and exploitation.
+* Using penetration testing tools in Kali Linux.
+* Risk documentation and remediation planning.
 
-* **Risks:** Increased chance of repeated breaches without remediation.
-* **Recommendations:**
-
-  1. **Implement MFA** to restrict access to authorized users only.
-  2. **Revise baseline configurations** to eliminate default passwords and enforce password policies.
-  3. **Apply port filtering** to reduce attack surface.
-* **Approach:** Regular policy reviews and patch updates.
+**Key Takeaway:**
+Highlighted the importance of proactive vulnerability scanning and firewall/antivirus deployment to prevent backdoor exploitation.
 
 ---
 
-## **3. Incident Report Analysis**
+## **2. Security Risk Assessment**
 
-**Summary:**
-Documents the response to an **ICMP flood (DDoS) attack** that rendered company network services inaccessible. The cause was an **unconfigured firewall** that allowed the malicious traffic.
-**Key Points:**
+**Objective:**
+Performed a risk assessment for a social media organization after a major data breach.
 
-* **Incident Type:** DDoS via ICMP flood.
-* **Response:** Blocking ICMP traffic, isolating affected networks, restoring critical services first.
-* **Mitigation Measures:** Network segmentation, firewall rules limiting ICMP, IP spoofing checks, IDS/IPS deployment, and traffic monitoring.
-* **Recovery Steps:** Gradual service restoration after attack subsides.
+**What I Did:**
 
----
+* Identified four critical weaknesses: password sharing, default admin credentials, no firewall traffic filtering, and no MFA.
+* Recommended a hardening plan involving **MFA**, revised baseline configurations, and **port filtering**.
 
-## **4. Security News Research Exercise**
+**Skills Demonstrated:**
 
-**Summary:**
-A research-based report summarizing three current cybersecurity threats and breaches with recommended mitigation strategies:
+* Security policy creation.
+* Applying NIST-based risk management principles.
+* Network security hardening.
 
-1. **Phishing Trends (2025):** Surge in AI-driven phishing attacks, QR code phishing, BEC scams, and deepfake-based social engineering.
-
-   * *Solution:* AI-based email filtering, behavior-driven phishing awareness training.
-2. **Access Control Weakness – Life Insurance Company Breach:** Compromised sensitive data including SSNs and medical claim details.
-
-   * *Solution:* Zero Trust model, SIEM, SOAR, XDR technologies, continuous monitoring.
-3. **Third-Party Vendor Breach – Grubhub:** Data stolen via compromised vendor account.
-
-   * *Solution:* Thorough vendor risk assessments, continuous monitoring, stronger contractual security requirements.
+**Key Takeaway:**
+Strengthened network posture through policy, access control, and configuration improvements.
 
 ---
 
-## **5. Vulnerability Assessment Report**
+## **3. Incident Response Analysis – ICMP Flood (DDoS)**
 
-**Summary:**
-Evaluates the access control security of a Linux-based MySQL database server with 128GB memory and IPv4 networking.
-**Key Points:**
+**Objective:**
+Analyze and respond to a simulated DDoS incident caused by an ICMP flood.
 
-* **Value of Asset:** Stores critical business data including employee, customer, and confidential records.
-* **Risks Identified:**
+**What I Did:**
 
-  * External hacking attempts.
-  * Dependency on other public servers increasing attack vectors.
-* **Risk Scoring:** Based on likelihood and severity using NIST SP 800-30 methodology.
-* **Remediation:** Strong authentication and authorization, role-based access controls, MFA, TLS encryption, IP allow-listing.
+* Identified the cause as an **unconfigured firewall**.
+* Designed a layered defense strategy using firewall rules, network segmentation, IDS/IPS, and traffic monitoring.
+* Outlined recovery steps for restoring services.
 
----
+**Skills Demonstrated:**
 
-## Suggested Usage
+* Incident handling using the **NIST Cybersecurity Framework**.
+* Network traffic analysis.
+* DDoS mitigation techniques.
 
-These documents can serve as:
-
-* Training resources for new cybersecurity team members.
-* Reference material for penetration testers and risk assessors.
-* Evidence for security compliance documentation.
-* Case studies in academic or corporate cybersecurity training.
+**Key Takeaway:**
+Prepared an incident response playbook to contain and recover from high-volume network attacks.
 
 ---
 
-Do you want me to also create a **table at the top of the README** that quickly compares the **type of report, threat type, and mitigation focus** for all five documents? That would make it easier for someone scanning the README to find what they need fast.
+## **4. Security News Research & Mitigation Strategies**
+
+**Objective:**
+Research and analyze recent security incidents to propose prevention strategies.
+
+**What I Did:**
+
+* Investigated three high-profile security issues:
+
+  1. **Phishing Trends (2025)** – AI-driven phishing, QR phishing, deepfake scams.
+  2. **Life Insurance Data Breach** – Weak access controls exposing sensitive records.
+  3. **Grubhub Vendor Breach** – Compromised third-party account.
+* Proposed AI-driven filtering, Zero Trust adoption, SOAR/SIEM/XDR integration, and vendor risk management.
+
+**Skills Demonstrated:**
+
+* Threat intelligence research.
+* Security awareness program design.
+* Policy recommendations for access control and third-party risk.
+
+**Key Takeaway:**
+Showcased ability to translate threat research into actionable business security strategies.
+
+---
+
+## **5. Vulnerability Assessment – MySQL Database Server**
+
+**Objective:**
+Assess the security posture of a Linux-based MySQL database server.
+
+**What I Did:**
+
+* Evaluated access controls, network exposure, and dependency risks.
+* Scored risks based on **likelihood** and **impact** using **NIST SP 800-30** methodology.
+* Recommended multi-factor authentication, IP allow-listing, and TLS encryption.
+
+**Skills Demonstrated:**
+
+* Vulnerability assessment methodology.
+* Secure configuration of database environments.
+* Risk prioritization and remediation planning.
+
+**Key Takeaway:**
+Reinforced the critical role of access control and encryption in protecting high-value business assets.
+
+---
+
+## Skills Across All Projects
+
+* **Frameworks:** NIST Cybersecurity Framework, NIST SP 800-30 Rev. 1
+* **Tools:** Kali Linux, Metasploitable 2, Wireshark, Tcpdump, IDS/IPS systems
+* **Domains:** Penetration testing, incident response, vulnerability management, risk assessment, threat intelligence
+* **Soft Skills:** Documentation, analytical thinking, security policy creation
+
+
