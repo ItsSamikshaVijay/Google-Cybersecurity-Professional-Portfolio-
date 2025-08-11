@@ -80,7 +80,7 @@ Prepared an incident response playbook to contain and recover from high-volume n
 ## **4. Security News Research & Mitigation Strategies**
 
 **Objective:**
-Research and analyze recent security incidents to propose prevention strategies.
+Research and analyze recent security incidents to propose prevention strategies as a starting point for any business interested in improving their security stance, based on 2025 trends.
 
 **What I Did:**
 
