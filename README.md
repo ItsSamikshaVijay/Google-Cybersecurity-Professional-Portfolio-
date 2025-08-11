@@ -78,6 +78,8 @@ Prepared an incident response playbook to contain and recover from high-volume n
 ---
 
 ## **4. Security News Research & Mitigation Strategies**
+<img width="625" height="311" alt="image" src="https://github.com/user-attachments/assets/a032f253-6aac-4335-ad9a-18adae2fc1f3" />
+
 
 **Objective:**
 Research and analyze recent security incidents to propose prevention strategies as a starting point for any business interested in improving their security stance, based on 2025 trends.
