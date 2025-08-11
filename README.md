@@ -55,6 +55,7 @@ Strengthened network posture through policy, access control, and configuration i
 ---
 
 ## **3. Incident Response Analysis – ICMP Flood (DDoS)**
+<img width="643" height="600" alt="image" src="https://github.com/user-attachments/assets/fe6995b2-a3a9-461c-906b-c2b39665fccb" />
 
 **Objective:**
 Analyze and respond to a simulated DDoS incident caused by an ICMP flood.
