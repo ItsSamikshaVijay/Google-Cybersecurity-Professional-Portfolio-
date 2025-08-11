@@ -105,6 +105,8 @@ Showcased ability to translate threat research into actionable business security
 ---
 
 ## **5. Vulnerability Assessment – MySQL Database Server**
+<img width="755" height="600" alt="image" src="https://github.com/user-attachments/assets/02daace1-ff5a-4889-8559-f5303c6e0f10" />
+
 
 **Objective:**
 Assess the security posture of a Linux-based MySQL database server.
