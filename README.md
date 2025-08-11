@@ -32,6 +32,7 @@ Highlighted the importance of proactive vulnerability scanning and firewall/anti
 ---
 
 ## **2. Security Risk Assessment**
+<img width="1797" height="600" alt="image" src="https://github.com/user-attachments/assets/dc62f25f-5672-4354-bb87-491f3c00a7ff" />
 
 **Objective:**
 Performed a risk assessment for a social media organization after a major data breach.
@@ -40,6 +41,7 @@ Performed a risk assessment for a social media organization after a major data b
 
 * Identified four critical weaknesses: password sharing, default admin credentials, no firewall traffic filtering, and no MFA.
 * Recommended a hardening plan involving **MFA**, revised baseline configurations, and **port filtering**.
+* Used NIST framework to help with making recommendations during security hardening. 
 
 **Skills Demonstrated:**
 
